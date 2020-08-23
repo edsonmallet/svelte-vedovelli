@@ -15,7 +15,6 @@
 
 <div class="mt-3">
   <form
-    data-testid="search-form"
     on:submit|preventDefault={search}
     class="flex mx-2 mt-1 rounded-md shadow-sm xl:w-1/2 md:mx-auto">
     <div class="relative flex-grow focus-within:z-10">

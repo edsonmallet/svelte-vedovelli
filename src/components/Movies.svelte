@@ -1,13 +1,11 @@
 <script>
-  import MovieSearch from "./Search.svelte"
-  import MovieList from "./MovieList.svelte"
+  import MovieSearch from './Search.svelte'
+  import MovieList from './MovieList.svelte'
 </script>
 
 <main>
-  <div class="container mx-auto">
-    <div class="md:mx-4">
-        <MovieSearch />
-        <MovieList />
-    </div>
+  <div class='container mx-auto md:mx-4'>
+    <MovieSearch />
+    <MovieList />
   </div>
 </main>
